@@ -1,64 +1,46 @@
 // Morris.js Charts sample data for SB Admin template
 
-$(function() {
+$(function () {
+    // connect to SQL server
+
 
     // Area Chart
     Morris.Area({
         element: 'morris-area-chart',
         data: [{
             period: '2010 Q1',
-            iphone: 2666,
-            ipad: null,
-            itouch: 2647
+            friday: 2666,
+            yahoo: null,
+            momo: 2647,
+            pchome: 2222
         }, {
             period: '2010 Q2',
-            iphone: 2778,
-            ipad: 2294,
-            itouch: 2441
+            friday: 2778,
+            yahoo: 2294,
+            momo: 2441,
+            pchome: 2100
         }, {
             period: '2010 Q3',
-            iphone: 4912,
-            ipad: 1969,
-            itouch: 2501
+            friday: 4912,
+            yahoo: 1969,
+            momo: 2501,
+            pchome: 1111
         }, {
             period: '2010 Q4',
-            iphone: 3767,
-            ipad: 3597,
-            itouch: 5689
+            friday: 3767,
+            yahoo: 3597,
+            momo: 5689,
+            pchome: 5124
         }, {
             period: '2011 Q1',
-            iphone: 6810,
-            ipad: 1914,
-            itouch: 2293
-        }, {
-            period: '2011 Q2',
-            iphone: 5670,
-            ipad: 4293,
-            itouch: 1881
-        }, {
-            period: '2011 Q3',
-            iphone: 4820,
-            ipad: 3795,
-            itouch: 1588
-        }, {
-            period: '2011 Q4',
-            iphone: 15073,
-            ipad: 5967,
-            itouch: 5175
-        }, {
-            period: '2012 Q1',
-            iphone: 10687,
-            ipad: 4460,
-            itouch: 2028
-        }, {
-            period: '2012 Q2',
-            iphone: 8432,
-            ipad: 5713,
-            itouch: 1791
+            friday: 6810,
+            yahoo: 1914,
+            momo: 2293,
+            pchome: 1541
         }],
         xkey: 'period',
-        ykeys: ['iphone', 'ipad', 'itouch'],
-        labels: ['iPhone', 'iPad', 'iPod Touch'],
+        ykeys: ['friday', 'yahoo', 'momo', 'pchome'],
+        labels: ['friday', 'yahoo', 'momo', 'pchome'],
         pointSize: 2,
         hideHover: 'auto',
         resize: true
@@ -68,14 +50,17 @@ $(function() {
     Morris.Donut({
         element: 'morris-donut-chart',
         data: [{
-            label: "Download Sales",
-            value: 12
+            label: "Friday",
+            value: 15874
         }, {
-            label: "In-Store Sales",
-            value: 30
+            label: "MOMO",
+            value: 2515
         }, {
-            label: "Mail-Order Sales",
-            value: 20
+            label: "Yahoo",
+            value: 25194
+        }, {
+            label: "PChome",
+            value: 254
         }],
         resize: true
     });
@@ -179,7 +164,7 @@ $(function() {
         }, {
             d: '2012-10-31',
             visits: 1892
-        }, ],
+        },],
         // The name of the data record attribute that contains x-visitss.
         xkey: 'd',
         // A list of names of data record attributes that contain y-visitss.
