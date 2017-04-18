@@ -5,7 +5,6 @@
         header("Location: login.php");
     }
     $username = $_SESSION['User'];
-    echo "<script>alert($username)</script>";
 ?>
 
 <!DOCTYPE html>

@@ -44,13 +44,13 @@
     <div id="wrapper">
         <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
             <div class="navbar-header">
-                <image src="image/new_LOGO.png" style="height: 45px; width: 45px; margin-left: 12px; margin-top: 2px;"/>
+                <image src="image/latest_logo.png" style="height: 45px; width: 45px; margin-left: 12px; margin-top: 2px;"/>
             </div>
             <p style="color: white; font-size: 30px; text-align: center; margin-top: 10px;">Welcome to Crawler management page</p>
         </nav>
     </div>
     <div>
-        <image src="image/new_LOGO.png" style="height: 290px; width: 290px; display:block; margin:auto;"/>
+        <image src="image/latest_logo.png" style="height: 290px; width: 290px; display:block; margin:auto;"/>
     </div>
     <div>
         <form action="check_login.php" method="POST" style="text-align: center; color: cyan;">

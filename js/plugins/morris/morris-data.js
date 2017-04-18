@@ -1,9 +1,6 @@
 // Morris.js Charts sample data for SB Admin template
 
 $(function () {
-    // connect to SQL server
-
-
     // Area Chart
     Morris.Area({
         element: 'morris-area-chart',
@@ -51,16 +48,16 @@ $(function () {
         element: 'morris-donut-chart',
         data: [{
             label: "Friday",
-            value: 15874
+            value: 86590
         }, {
             label: "MOMO",
-            value: 2515
+            value: 54714
         }, {
             label: "Yahoo",
-            value: 25194
+            value: 82017
         }, {
             label: "PChome",
-            value: 254
+            value: 10860
         }],
         resize: true
     });
