@@ -6,34 +6,34 @@ $(function () {
         element: 'morris-area-chart',
         data: [{
             period: '2010 Q1',
-            friday: 2666,
-            yahoo: null,
-            momo: 2647,
-            pchome: 2222
+            friday: 83154,
+            yahoo: 80102,
+            momo: 54100,
+            pchome: 8951
         }, {
             period: '2010 Q2',
-            friday: 2778,
-            yahoo: 2294,
-            momo: 2441,
-            pchome: 2100
+            friday: 84012,
+            yahoo: 79514,
+            momo: 54975,
+            pchome: 9514
         }, {
             period: '2010 Q3',
-            friday: 4912,
-            yahoo: 1969,
-            momo: 2501,
-            pchome: 1111
+            friday: 84102,
+            yahoo: 89451,
+            momo: 54178,
+            pchome: 8514
         }, {
             period: '2010 Q4',
-            friday: 3767,
-            yahoo: 3597,
-            momo: 5689,
-            pchome: 5124
+            friday: 84125,
+            yahoo: 81574,
+            momo: 55124,
+            pchome: 9465
         }, {
             period: '2011 Q1',
-            friday: 6810,
-            yahoo: 1914,
-            momo: 2293,
-            pchome: 1541
+            friday: 86590,
+            yahoo: 82017,
+            momo: 54714,
+            pchome: 10860
         }],
         xkey: 'period',
         ykeys: ['friday', 'yahoo', 'momo', 'pchome'],
