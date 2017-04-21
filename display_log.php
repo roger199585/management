@@ -81,7 +81,7 @@
                     <li>
                         <a href="index.php"><i class="fa fa-fw fa-bar-chart-o"></i> Charts</a>
                     </li>
-                    <li class = "activate">
+                    <li class = "active">
                         <a href="display_log.php"><i class="fa fa-fw fa-table"></i> Error Display</a>
                     </li>
                 </ul>
@@ -97,7 +97,7 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <h1 class="page-header">
-                            Dashboard <small>Statistics Overview</small>
+                            多利多資
                         </h1>
                         <ol class="breadcrumb">
                             <li class="active">
@@ -108,7 +108,22 @@
                 </div>
        
                 <!-- /.row -->
-
+                <div class="row">
+                    <div class="col-lg-12">
+                        <?php
+                            $log_data = file("log.txt");
+                            $id = 0;
+                            
+                            echo "<table class=\"table table-hover\">";
+                            echo "<tr class=\"info\"><td>#</td><td>Error message</td></tr>";
+                            foreach ($log_data as $datas) {
+                                echo "<tr class=\"danger\"><td>".$id++."</td><td>".$datas."</td></tr>";
+                            }
+                            echo "</table>"
+                        ?>
+                    </div>
+                </div>
+                 <!-- /.row -->
             </div>
             <!-- /.container-fluid -->
 
