@@ -48,16 +48,20 @@ $(function () {
         element: 'morris-donut-chart',
         data: [{
             label: "Friday",
-            value: 86590
+            //value: 86590
+            value: Wdata.friday
         }, {
             label: "MOMO",
-            value: 54714
+            //value: 54714
+            value: Wdata.momo
         }, {
             label: "Yahoo",
-            value: 82017
+            //value: 82017
+            value: Wdata.yahoo
         }, {
             label: "PChome",
-            value: 10860
+            //value: 10860
+            value: Wdata.pchome
         }],
         resize: true
     });

@@ -1,4 +1,5 @@
 <?php
+    include("count_data.php");
     session_start();
     if ( $_SESSION['Login'] < 1) {
         $_SESSION['Login'] = 0;
